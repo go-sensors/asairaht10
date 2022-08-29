@@ -555,8 +555,6 @@ func Test_Run_returns_expected_measurements(t *testing.T) {
 	assert.Nil(t, err)
 }
 
-// TODO: test success conditions
-
 func Test_Run_attempts_to_recover_from_failure(t *testing.T) {
 	// Arrange
 	ctrl := gomock.NewController(t)
